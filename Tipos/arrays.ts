@@ -3,4 +3,5 @@
   const villains = ['Omega Rojo', 'Dormammu', 'Duende Verde'];
 
   villains.forEach((v) => console.log(v.toLowerCase()));
+  numbers.forEach((v) => console.log(v));
 })();
