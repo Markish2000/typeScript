@@ -19,5 +19,9 @@
   const printAvenger = ({ ironMan, ...resto }: Avengers) => {
     console.log(avengers.vision, resto);
   };
-  printAvenger(avengers);
+  // printAvenger(avengers);
+
+  const avengersArr: [string, boolean, number] = ['Cap. América', true, 150.15];
+  const [capitan, ironMan, seriUnNumbero] = avengersArr;
+  // console.log({ ironMan, capitan });
 })();
