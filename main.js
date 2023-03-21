@@ -15,6 +15,13 @@
     };
 })();
 (() => {
+    class Mutant {
+        mutantPower() {
+            return `${this.name} ${this.realName}`;
+        }
+    }
+})();
+(() => {
     const client = {
         name: 'Marcos',
         age: 22,
