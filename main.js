@@ -23,6 +23,9 @@
             zip: 'KY2 SUD',
             city: 'Ottawa',
         },
+        getFullAddress(id) {
+            return this.address.city;
+        },
     };
     const client2 = {
         name: 'Melissa',
@@ -31,6 +34,9 @@
             id: 120,
             zip: 'K2S U2A',
             city: 'Toronto',
+        },
+        getFullAddress(id) {
+            return this.address.city;
         },
     };
 })();
